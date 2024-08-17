@@ -1,0 +1,103 @@
+.caja1 {
+    position: fixed; /* Fija la posición en la ventana del navegador */
+    top: 0; /* Ubica el rectángulo en la parte superior */
+    right: 0; /* Ubica el rectángulo en el lado derecho */
+    width: 100%; /* Ancho del 65% de la ventana */
+    height: 50px; /* Altura de 30px */
+    background-color: #28666E; /* Color de fondo opcional, puedes cambiarlo */
+    display: flex; /* Usa flexbox para alinear los botones en una fila */
+    justify-content: flex-end; /* Alinea los botones al lado derecho */
+    align-items: center; /* Centra verticalmente los botones en el contenedor */
+    padding: 0 10px; /* Espacio interno a los lados del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el border en el tamaño total */
+    z-index: 1; /* Coloca esta caja en un nivel inferior */
+}
+.caja1 button {
+    background-color: #FEDC97;
+    color: #033f63; 
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas opcional */
+    padding: 7px 20px; /* Espacio interno en los botones */
+    margin: 0 7px; /* Espacio entre los botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 15px; /* Tamaño del texto en los botones */
+}
+.caja1 button:hover {
+    background-color: #B5B682; /* Color de fondo al pasar el mouse sobre el botón */
+}
+.contenido {
+    display: flex; /* Usa flexbox para alinear el texto y la imagen en una fila */
+    justify-content: space-between; /* Deja espacio entre los elementos alineados */
+    margin-top: 30px; /* Añade margen superior para evitar solapamiento con .caja1 */
+    padding: 20px; /* Añade padding alrededor del contenido */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+.texto {
+    width: 60%; /* El texto ocupa el 60% del ancho disponible */
+    text-align: left; /* Alinea el texto a la izquierda */
+    border: 3px solid #033F63;
+    background-color: #6dd16d;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.imagen {
+    display: block;
+    margin: 0 auto; 
+    height: 17%; /* Ajusta la altura de la imagen */
+    width: 17%;
+    justify-content: flex-end; /* Alinea la imagen a la derecha */
+}
+.imagen img {
+    margin-top: 30px;
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 3px solid #033F63;
+    border-radius: 5px;
+}
+h1{
+    color: #033F63;
+    text-align: center;
+}
+p{
+    color: #000000;
+    font-size: 20px;
+}
+.contenido p{
+    color: #000000;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.rectangulo-vertical {
+    position: fixed; /* Fija el contenedor en la ventana del navegador */
+    top: 0; /* Coloca el contenedor en la parte superior */
+    left: 0; /* Posiciona el contenedor en el borde izquierdo del navegador */
+    width: 1%; /* Define el ancho del rectángulo */
+    height: 100vh; /* Altura del 100% de la ventana */
+    background-color: #7C9885; /* Color de fondo opcional */
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+    z-index: 2; /* Coloca esta caja en un nivel superior */
+}
+.caja2 {
+    background-color: #77db77; 
+    border: 3px solid #033F63;
+    padding: 20px; /* Espacio interno alrededor del contenido */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    margin: 70px; /* Espacio externo alrededor de la caja */
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+    color: #000; /* Color del texto */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.texto p{
+    font-weight: bold; /* Aplica negrilla a los encabezados, párrafos y listas */
+}
+.fondo {    
+    height: 1110px; /* Ajusta la altura de la imagen */
+    width: 1343px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
